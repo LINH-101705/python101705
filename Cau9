@@ -1,0 +1,6 @@
+def Cau9():
+    x = int(input())
+    n = int(input())
+    s = sum( i**n for i in range(n+1))
+    print("S = ", s)
+Cau9()
