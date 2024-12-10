@@ -1,0 +1,6 @@
+import math
+def Cau13():
+    n = int(input())
+    s = sum((1/ math.factorial(2 * i + 1) for i in range(n+1)))
+    print("S = ", round(s,2))
+Cau13()
