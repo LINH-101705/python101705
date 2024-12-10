@@ -1,0 +1,14 @@
+def Giaibpt():
+    a = float(input())
+    b = float(input())
+    if a == 0:
+        if b > 0:
+            print("BPT luôn đúng")
+        if b < 0:
+            print("BPT vô nghĩa")
+    else:
+        if a> 0:
+            print("Nghiệm của BPT là x >", -b/a)
+        else:
+            print("Nghiệm của BPT x <", -b/a)
+Giaibpt()
